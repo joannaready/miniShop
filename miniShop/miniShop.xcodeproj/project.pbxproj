@@ -17,6 +17,8 @@
 		2510B9B31ABC475F00DB37EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2510B9B21ABC475F00DB37EF /* ViewController.m */; };
 		2510B9B81ABC489700DB37EF /* addProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2510B9B71ABC489700DB37EF /* addProductController.m */; };
 		2510B9BA1ABC492D00DB37EF /* addProduct.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2510B9B91ABC492D00DB37EF /* addProduct.storyboard */; };
+		25BE52B31ABF45F500EB14F5 /* productShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BE52B11ABF45F500EB14F5 /* productShowCell.m */; };
+		25BE52B41ABF45F500EB14F5 /* productShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BE52B21ABF45F500EB14F5 /* productShowCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 		2510B9B61ABC489700DB37EF /* addProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addProductController.h; sourceTree = "<group>"; };
 		2510B9B71ABC489700DB37EF /* addProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addProductController.m; sourceTree = "<group>"; };
 		2510B9B91ABC492D00DB37EF /* addProduct.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = addProduct.storyboard; sourceTree = "<group>"; };
+		25BE52B01ABF45F500EB14F5 /* productShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = productShowCell.h; sourceTree = "<group>"; };
+		25BE52B11ABF45F500EB14F5 /* productShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = productShowCell.m; sourceTree = "<group>"; };
+		25BE52B21ABF45F500EB14F5 /* productShowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = productShowCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +107,6 @@
 		2510B9801ABC440B00DB37EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2510B98D1ABC440B00DB37EF /* Main.storyboard */,
 				2510B9901ABC440B00DB37EF /* Images.xcassets */,
 				2510B9921ABC440B00DB37EF /* LaunchScreen.xib */,
 				2510B9811ABC440B00DB37EF /* Info.plist */,
@@ -157,6 +161,7 @@
 		2510B9AB1ABC475F00DB37EF /* main */ = {
 			isa = PBXGroup;
 			children = (
+				2510B98D1ABC440B00DB37EF /* Main.storyboard */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -164,6 +169,9 @@
 		2510B9AC1ABC475F00DB37EF /* myShop */ = {
 			isa = PBXGroup;
 			children = (
+				25BE52B01ABF45F500EB14F5 /* productShowCell.h */,
+				25BE52B11ABF45F500EB14F5 /* productShowCell.m */,
+				25BE52B21ABF45F500EB14F5 /* productShowCell.xib */,
 			);
 			path = myShop;
 			sourceTree = "<group>";
@@ -290,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BE52B41ABF45F500EB14F5 /* productShowCell.xib in Resources */,
 				2510B98F1ABC440B00DB37EF /* Main.storyboard in Resources */,
 				2510B9941ABC440B00DB37EF /* LaunchScreen.xib in Resources */,
 				2510B9BA1ABC492D00DB37EF /* addProduct.storyboard in Resources */,
@@ -311,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BE52B31ABF45F500EB14F5 /* productShowCell.m in Sources */,
 				2510B9891ABC440B00DB37EF /* miniShop.xcdatamodeld in Sources */,
 				2510B9B81ABC489700DB37EF /* addProductController.m in Sources */,
 				2510B9861ABC440B00DB37EF /* AppDelegate.m in Sources */,
@@ -344,6 +354,7 @@
 				2510B98E1ABC440B00DB37EF /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		2510B9921ABC440B00DB37EF /* LaunchScreen.xib */ = {
@@ -501,7 +512,7 @@
 				2510B9A21ABC440B00DB37EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		2510B9A31ABC440B00DB37EF /* Build configuration list for PBXNativeTarget "miniShop" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +521,7 @@
 				2510B9A51ABC440B00DB37EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		2510B9A61ABC440B00DB37EF /* Build configuration list for PBXNativeTarget "miniShopTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +530,7 @@
 				2510B9A81ABC440B00DB37EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 
